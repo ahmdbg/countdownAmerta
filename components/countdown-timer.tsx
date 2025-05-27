@@ -221,7 +221,7 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
 
       {/* Content */}
       <div className="relative z-10 text-center">
-        <h1 className="text-2xl font-light text-gray-300 mb-12 tracking-wider drop-shadow-lg">COUNTDOWN AMERTA NS 2025</h1>
+        <h1 className="text-2xl font-light text-gray-300 mb-12 tracking-wider drop-shadow-lg">COUNTDOWN AMERTA 2025</h1>
 
         <div className="flex flex-wrap justify-center gap-8 md:gap-12">
           {timeLeft.map((unit, index) => (
